@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/node": "^16.11.11"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.177",
+    "lodash": "^4.17.21",
+    "typescript-memoize": "^1.1.0"
+  }
+}
