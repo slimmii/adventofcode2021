@@ -1,6 +1,9 @@
 import java.io.File
+<<<<<<< HEAD
 import kotlin.collections.HashMap
 import kotlin.math.sign
+=======
+>>>>>>> 5613d9c1be93dedcfe5ca7c11bcbfe7d49689996
 
 fun main(args: Array<String>) {
     val input = File("input.txt")
@@ -13,6 +16,7 @@ fun main(args: Array<String>) {
 
     println(diagram.getSafePoints().size)
 
+<<<<<<< HEAD
 }
 
 class Coords constructor(x: Int, y: Int) {
@@ -58,4 +62,6 @@ class Diagram constructor(input : List<List<List<Int>>>) {
         return this.diagram.filter { e -> e.value >= 2 }.keys.toList()
     }
 
+=======
+>>>>>>> 5613d9c1be93dedcfe5ca7c11bcbfe7d49689996
 }
